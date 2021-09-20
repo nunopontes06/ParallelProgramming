@@ -1,0 +1,39 @@
+------------ PPT 3 (RAFA)
+
+Em sistemas de memoria compartilhada, o MPI fornece o entrenó de rotinas de passagem de mensagens, como por exemplo, um processo MPI por nó.
+
+Em sistemas híbridos, existem duas formas de se configurar o MPI. Usar o MPI para comunicação entre nós e o OpenMP para o compartilhamento das tasks entre nós. Neste caso, executa-se um processo MPI por nó.
+
+A maioria dos sistemas HPC atuais são sistemas híbridos.
+
+------------ PPT 4 (RAFA)
+
+MPI-1.x
+O objetivo era desenvolver um padrão amplamente utilizado para escrever software de “messagepassing”.
+Inicialmente, mais de 40 organizações participaram da discussão.
+O relatório final da versão 1.0 foi concluído em 1994.
+
+MPI-2.x
+Contém correções e extensões para MPI-1-x.
+Focado na criação e gestão de processos, comunicações unilaterais, comunicações coletivas, interfaces externas e input/output paralelo.
+O relatório final da versão 1.0 foi concluído em 1994.
+
+MPI-3.0:
+Extensões principais ao MPI, incluindo nonblocking collectives, novas operações de comunicações one-sided unilateral e ligações Fortran 2008.
+Publicado em 2012.
+
+------------ PPT 6 (RAFA)
+
+LE O QUE TA LA
+
+------------ PPT 9 (RAFA)
+
+Para compilar-se um programa MPI na linguagem de programação C, utiliza-se o seguindo comando (ler imagem MPICC no PPT).
+
+Refere-se que, no nosso contexto de trabalho, não foi utilizado este tipo de compilação, isto porque utilizamos IDE para compilar os programas em MPI. Como referido, o nosso ambiente de trabalho foi Windows, pelo que ficamos restringidos a algumas potencialidades, assim como alguns erros, que de outra forma em Linux, não existiriam.
+
+Para executar um programa em MPI, utilizou-se o seguinte comando (ler MPIEXEC no PPT).
+
+------------ PPT 10 (RAFA)
+
+LER O QUE LA TA OS TIPOS DE DADOS

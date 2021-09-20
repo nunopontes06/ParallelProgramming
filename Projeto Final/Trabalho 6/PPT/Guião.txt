@@ -1,0 +1,57 @@
+---- PPT 1 (NUNO) ----
+
+Bom dia a todos.
+
+Para este trabalho final 6, teve-se como objetivo elaborar uma pesquisa sobre a biblioteca de computação paralela do MPI.
+Posteriormente a isso representamos alguns problemas matemáticos em que a biblioteca nos pude
+auxiliar.
+
+---- PPT 2 (NUNO) ----
+
+MPI (Message Passing Interface), consiste no padrão para implementar a comunicação entre nós de computação/processos em programação paralela. O mesmo define a sintaxe e a semântica de um nucelo de rotinas da biblioteca. 
+
+O MPI consiste apenas numa biblioteca de definições e funções que podem ser implementadas em linguagens de programação tais como C, C++, Fortran e Python.
+
+Um dos grandes objetivos do MPI é ser eficiente, flexível, prático e portátil.
+
+---- PPT 5 (NUNO) ----
+
+Para a pesquisa, neste trabalho 6, em específico, utilizou-se o auxílio do MPICH (em concreto MPICH), que consiste em uma implementação open-source, ao qual se pode fazer o download, livres de quaisquer custos adicionais. 
+
+Do website onde se retirou a biblioteca do MPICH, existem outras variantes, tais como MPICH2, que consiste na versão atualizada do MPI.
+
+Existem outras alternativas, no entanto não são open-source, logo encarecem do ponto de vista monetário. Tais como Intel MPI ou HP MPI.
+
+---- PPT 7 (NUNO) ----
+
+Como referido anteriormente as funções MPI começam com uma letra maiúscula, seguida por letras minúsculas. 
+
+Geralmente usa-se o MPI_finalize() no final do algoritmo, normalmente antecedido de um return 0, caso a linguagem de programação seja C. O seu objetivo, como o nome sugere, termina a execução do ambiente MPI.
+
+MPI_COMM_rank() Determina o rank do processo chamado, onde size-1, em que o size representa o valor de MPI_COMM_SIZE.
+
+MPI_COMM_WORLD
+MPI_DOUBLE
+O nome de constantes MPI predefinidas são todas maiúsculas. 
+
+---- PPT 8 (NUNO) ----
+
+Int MPI_Init()
+Inicializa o ambiente de execução MPI. Esta função requer se chamada em cada programa MPI, deve ser chamada antes de qualquer outra função MPI e deve ser chamada apenas uma vez em um programa MPI.
+
+Int MPI_Finalized()
+Encerra o ambiente de execução MPI. Efetivamente a última rotina MPI chamada em um programa MPI. Nenhuma outra rotina MPI pode ser chamada depois disso.
+
+int MPI_Comm_size()
+Determina o número total de processos no comunicador especificado, como MPI_COMM_WORLD.
+
+int MPI_Comm_rank()
+Retorna o rank do processo MPI de chamada com o comunicador especificado. Cada processo MPI é atribuído a um valor inteiro único entre 0 e (número de processos - 1)
+
+int MPI_Abort()
+Encerra os processos MPI associados à comunicação do comunicador e retorna o código de erro especificado no código.
+
+---- PPT 11 (NUNO) ----
+
+Mostrar o codigo a funcionar no terminal.
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1621179806 source:c:\users\nuno\desktop\programação pararela\projeto final\testes\main.c
+	<stdio.h>
+	<math.h>
+	<mpi.h>
+	<stdlib.h>
+

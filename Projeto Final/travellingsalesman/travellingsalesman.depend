@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1622587658 source:c:\users\nuno\desktop\programação pararela\projeto final\travellingsalesman\main.c
+	<sys/time.h>
+	<ctype.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<unistd.h>
+	<omp.h>
+

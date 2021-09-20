@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621178047 source:c:\users\nuno\desktop\programação pararela\projeto final\somacemnrs\main.c
+	<stdio.h>
+	<stdlib.h>
+	<mpi.h>
+

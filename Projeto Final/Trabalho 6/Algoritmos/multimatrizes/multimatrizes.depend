@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621125261 source:c:\users\nuno\desktop\programação pararela\projeto final\multimatrizes\main.c
+	<stdlib.h>
+	<stdio.h>
+	<mpi.h>
+
